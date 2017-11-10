@@ -1,0 +1,10 @@
+body {
+  color: #666;
+}
+.roundBox {
+  color: gray;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
