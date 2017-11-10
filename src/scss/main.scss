@@ -1,9 +1,13 @@
 @import "mixin.scss";
-$font-stack:    Helvetica, sans-serif;
+$font-stack:    Helve1tica, sans-serif;
 $primary-color: #333;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+
+}
+body{
+  background: #eee;
 }
 .box { @include border-radius(10px); }
