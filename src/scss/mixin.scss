@@ -4,5 +4,3 @@
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
-
-.box { @include border-radius(10px); }
