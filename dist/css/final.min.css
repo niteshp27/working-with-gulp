@@ -1,0 +1,35 @@
+.css1{
+  color: blue;;
+}
+
+.css2{
+  color: red;
+}
+
+body {
+  color: #666;
+}
+body header {
+  padding: 10px;
+}
+body footer {
+  padding: 10px;
+}
+.roundBox {
+  color: gray;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
