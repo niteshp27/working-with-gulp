@@ -1,7 +1,18 @@
-var gulp = require('gulp');
+//npm install gulp-less --save-dev
 
-gulp.task('hello', function(){
-    console.log("hello css");
+
+var gulp = require('gulp');
+var less = require('gulp-less');
+gulp.task('compileless', function(){
+    console.log("less css starts");
+    //single file -- gulp.src('./src/less/main.less')
+    //multiple files -- gulp.src('./src/less/**/*.less')
+    gulp.src('./src/less/**/*.less')
+    .pipe(
+      less()
+    )
+    .pipe( gulp.dest('./dist/css/'));
+    console.log("less css ends");
 });
 
-//run command- gulp hello
+//run command- gulp compileless
