@@ -19,6 +19,9 @@ Follow the following steps after downloading the repo.
 	C. The npm init command creates a package.json file for your project which stores information about the project, 
 	like the dependencies used in the project (Gulp is an example of a dependency).
 
+		"var gulp = require('gulp');" -The require statement tells Node to look into the node_modules folder for 
+		a package named gulp.
+
 	D. Install dependencies.
   
 		"npm install gulp-less --save-dev"
