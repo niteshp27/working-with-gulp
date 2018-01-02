@@ -66,7 +66,7 @@ Open command prompt, browse to the path where the project is located and run bel
 
 - The final compiled single CSS file will be "style.min.css" and final single JS file will be "script.min.js".
 
-- The file to be used will be found in dist directory.
+- The generated files to be used will be found in dist directory.
 
 Note*-
 Operation to be need to rework- Clean unsed files, run sequence for calling clean before second task are run simultaneously
