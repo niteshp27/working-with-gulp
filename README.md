@@ -40,19 +40,19 @@ Open command prompt, browse to the path where the project is located and run bel
 
 		1. run command- 
 
-				"gulp compiletocss" or //run command seperately- "gulp bundlejs"
+			"gulp compiletocss" or //run command seperately- "gulp bundlejs"
 
-			or run command- 
+		or run command- 
 
-				"gulp bundlecssjs"
+			"gulp bundlecssjs"
 		
 		2. first run command-
 
-				"gulp default" and then run "gulp watch" command.
+			"gulp default" and then run "gulp watch" command.
 
-			run command- 
+		run command- 
 
-				"gulp watch"
+			"gulp watch"
     
 - "compiletocss" is a task name. If Gulp task name is default it need not be mentioned to run it. Only mentioning gulp will run the task.
 
