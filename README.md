@@ -21,11 +21,11 @@ Follow the following steps after downloading the repo.
 
 	D. Install dependencies.
 
-    "npm install gulp-concat --save-dev"
+		"npm install gulp-concat --save-dev"
 
-    "npm install gulp-uglify --save-dev"
+		"npm install gulp-uglify --save-dev"
 
-    "npm install gulp-rename --save-dev"
+		"npm install gulp-rename --save-dev"
 
 -Run the Gulp "Task". Task are operations that need to be performed.
 Open command prompt, browse to the path where the project is located and run below commands:-
@@ -35,3 +35,5 @@ Open command prompt, browse to the path where the project is located and run bel
 - "compilejs" is a task name. If Gulp task name is default it need not be mentioned to run it. Only mentioning gulp will run the task.
 
 - The final compiled single JS file will be "script.min.js".
+
+- The generated files to be used will be found in dist directory.
