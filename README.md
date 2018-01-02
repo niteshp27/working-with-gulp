@@ -1,5 +1,5 @@
 # working-with-gulp
-Perform operations using the gulp utility to build multiple LESS CSS files to a single CSS file.
+Perform operations using the gulp utility to build multiple LESS CSS files to a multiple CSS file.
 
 Follow the following steps after downloading the repo.
 
