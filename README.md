@@ -15,7 +15,8 @@ Follow the following steps after downloading the repo.
 
 		"npm init"
 
-	C. The npm init command creates a package.json file for your project which stores information about the project, like the dependencies used in the project (Gulp is an example of a dependency).
+	C. The npm init command creates a package.json file for your project which stores information about the project, 
+	like the dependencies used in the project (Gulp is an example of a dependency).
 
 	D. Install dependencies.
 
