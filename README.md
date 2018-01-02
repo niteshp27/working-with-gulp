@@ -20,24 +20,24 @@ Follow the following steps after downloading the repo.
 
 	D. Install dependencies.
 
-    "npm install gulp-less --save-dev"
+		"npm install gulp-less --save-dev"
 
-    "npm install gulp-concat --save-dev"
+		"npm install gulp-concat --save-dev"
 
-    "npm install merge-stream --save-dev"
+		"npm install merge-stream --save-dev"
 
-    "npm install gulp-minify-css --save-dev"
+		"npm install gulp-minify-css --save-dev"
 
-    "npm install gulp-sass --save-dev"
+		"npm install gulp-sass --save-dev"
 
 -Run the Gulp "Task". Task are operations that need to be performed.
 Open command prompt, browse to the path where the project is located and run below commands:-
 
 		"gulp compileless"
 
-or
+		or
 
-    "gulp"
+		"gulp"
     
 - "compileless" is a task name. If Gulp task name is default it need not be mentioned to run it. Only mentioning gulp will run the task.
 
