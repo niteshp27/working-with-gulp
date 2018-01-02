@@ -22,13 +22,9 @@ Follow the following steps after downloading the repo.
 
 		"npm install gulp-less --save-dev"
 
-		"npm install gulp-less --save-dev"
-
-		"npm install gulp-less --save-dev"
-
 		"npm install gulp-concat --save-dev"
 
--Open command propmt and run below commands:-
+-Open command prompt, browse to the path where the project is located and run below commands:-
 
 		"gulp compileless"
 
