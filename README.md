@@ -1,13 +1,13 @@
 # working-with-gulp
-Perform operations using the gulp utility to build multipkle LESS CSS files to a sing CSS file.
+Perform operations using the gulp utility to build multiple LESS CSS files to a single CSS file.
 
 Follow the following steps after downloading the repo.
 
--Install node.js on your machine. https://nodejs.org/en/
+- Install node.js on your machine. https://nodejs.org/en/
 
--Install Gulp on your Machine. https://gulpjs.com/
+- Install Gulp on your Machine. https://gulpjs.com/
 
--Start with gulp.js
+- Start with gulp.js
 
 	A. we'll create a folder called project to server as our project root as we move through this tutorial.
 
@@ -24,8 +24,11 @@ Follow the following steps after downloading the repo.
 
 		"npm install gulp-concat --save-dev"
 
--Open command prompt, browse to the path where the project is located and run below commands:-
+- Run the Gulp "Task". Task are operations that need to be performed.
+Open command prompt, browse to the path where the project is located and run below commands:-
 
 		"gulp compileless"
+		
+- "compileless" is a task name. If Gulp task name is default it need not be mentioned to run it. Only mentioning gulp will run the task.
 
--The final compiled single CSS file will be "final.min.css".
+- The final compiled single CSS file will be "final.min.css".
